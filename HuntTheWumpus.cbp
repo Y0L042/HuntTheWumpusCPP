@@ -30,7 +30,36 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="raylib-5.0_win64_mingw-w64/include" />
+			<Add directory="imgui-docking/include" />
+			<Add directory="rlImGui-main" />
 		</Compiler>
+		<Linker>
+			<Add library="libraylibdll" />
+			<Add directory="raylib-5.0_win64_mingw-w64/lib" />
+		</Linker>
+		<Unit filename="imgui-docking/include/imconfig.h" />
+		<Unit filename="imgui-docking/include/imgui.cpp" />
+		<Unit filename="imgui-docking/include/imgui.h" />
+		<Unit filename="imgui-docking/include/imgui_demo.cpp" />
+		<Unit filename="imgui-docking/include/imgui_draw.cpp" />
+		<Unit filename="imgui-docking/include/imgui_internal.h" />
+		<Unit filename="imgui-docking/include/imgui_stdlib.cpp" />
+		<Unit filename="imgui-docking/include/imgui_stdlib.h" />
+		<Unit filename="imgui-docking/include/imgui_tables.cpp" />
+		<Unit filename="imgui-docking/include/imgui_widgets.cpp" />
+		<Unit filename="imgui-docking/include/imstb_rectpack.h" />
+		<Unit filename="imgui-docking/include/imstb_textedit.h" />
+		<Unit filename="imgui-docking/include/imstb_truetype.h" />
+		<Unit filename="raylib-5.0_win64_mingw-w64/include/raygui.h" />
+		<Unit filename="raylib-5.0_win64_mingw-w64/include/raylib.h" />
+		<Unit filename="raylib-5.0_win64_mingw-w64/include/raymath.h" />
+		<Unit filename="raylib-5.0_win64_mingw-w64/include/rlgl.h" />
+		<Unit filename="rlImGui-main/imgui_impl_raylib.h" />
+		<Unit filename="rlImGui-main/rlImGui.cpp" />
+		<Unit filename="rlImGui-main/rlImGui.h" />
+		<Unit filename="rlImGui-main/rlImGuiColors.h" />
+		<Unit filename="src/main.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

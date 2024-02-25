@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1708874627 source:g:\projects\cpp_projects\huntthewumpus\src\main.cpp
+1708875265 source:g:\projects\cpp_projects\huntthewumpus\src\main.cpp
 	"raylib.h"
 	"raygui.h"
 	<iostream>
+	"imgui.h"
 	"rlImGui.h"
 
 1700309226 g:\projects\cpp_projects\huntthewumpus\raylib-5.0_win64_mingw-w64\include\raylib.h
