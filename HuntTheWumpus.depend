@@ -1,0 +1,145 @@
+# depslib dependency file v1.0
+1708874627 source:g:\projects\cpp_projects\huntthewumpus\src\main.cpp
+	"raylib.h"
+	"raygui.h"
+	<iostream>
+	"rlImGui.h"
+
+1700309226 g:\projects\cpp_projects\huntthewumpus\raylib-5.0_win64_mingw-w64\include\raylib.h
+	<stdarg.h>
+	<stdbool.h>
+
+1708253935 g:\projects\cpp_projects\huntthewumpus\raylib-5.0_win64_mingw-w64\include\raygui.h
+	"raylib.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<math.h>
+
+1708628506 source:g:\projects\cpp_projects\huntthewumpus\imgui-docking\include\imgui.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdio.h>
+	<stdint.h>
+	<Windows.h>
+	<windows.h>
+	<TargetConditionals.h>
+	"stb_sprintf.h"
+	<Carbon/Carbon.h>
+	<imm.h>
+	"imgui_user.inl"
+
+1708628506 g:\projects\cpp_projects\huntthewumpus\imgui-docking\include\imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	"imgui_user.h"
+
+1708628506 g:\projects\cpp_projects\huntthewumpus\imgui-docking\include\imconfig.h
+
+1708628506 g:\projects\cpp_projects\huntthewumpus\imgui-docking\include\imgui_internal.h
+	"imgui.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<limits.h>
+	<immintrin.h>
+	"imstb_textedit.h"
+
+1708628506 g:\projects\cpp_projects\huntthewumpus\imgui-docking\include\imstb_textedit.h
+	<string.h>
+
+1708628506 source:g:\projects\cpp_projects\huntthewumpus\imgui-docking\include\imgui_demo.cpp
+	"imgui.h"
+	<ctype.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	<inttypes.h>
+
+1708628506 source:g:\projects\cpp_projects\huntthewumpus\imgui-docking\include\imgui_draw.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	"misc/freetype/imgui_freetype.h"
+	<stdio.h>
+	"imstb_rectpack.h"
+	"imstb_truetype.h"
+
+1708628506 g:\projects\cpp_projects\huntthewumpus\imgui-docking\include\imstb_rectpack.h
+	<stdlib.h>
+	<assert.h>
+
+1708628506 g:\projects\cpp_projects\huntthewumpus\imgui-docking\include\imstb_truetype.h
+	"stb_truetype.h"
+	<stdio.h>
+	"stb_truetype.h"
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<math.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	<string.h>
+
+1708628506 source:g:\projects\cpp_projects\huntthewumpus\imgui-docking\include\imgui_stdlib.cpp
+	"imgui.h"
+	"imgui_stdlib.h"
+
+1708628506 g:\projects\cpp_projects\huntthewumpus\imgui-docking\include\imgui_stdlib.h
+	<string>
+
+1708628506 source:g:\projects\cpp_projects\huntthewumpus\imgui-docking\include\imgui_tables.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdint.h>
+
+1708628506 source:g:\projects\cpp_projects\huntthewumpus\imgui-docking\include\imgui_widgets.cpp
+	"imgui.h"
+	"imgui_internal.h"
+	<stdint.h>
+	"imstb_textedit.h"
+
+1708301463 source:g:\projects\cpp_projects\huntthewumpus\rlimgui-main\rlimgui.cpp
+	"rlImGui.h"
+	"imgui_impl_raylib.h"
+	"raylib.h"
+	"rlgl.h"
+	<math.h>
+	<map>
+	<limits>
+	"extras/FA6FreeSolidFontData.h"
+
+1708301463 g:\projects\cpp_projects\huntthewumpus\rlimgui-main\rlimgui.h
+	"raylib.h"
+	"extras/IconsFontAwesome6.h"
+
+1708301463 g:\projects\cpp_projects\huntthewumpus\rlimgui-main\extras\iconsfontawesome6.h
+
+1708301463 g:\projects\cpp_projects\huntthewumpus\rlimgui-main\imgui_impl_raylib.h
+	"imgui.h"
+
+1700309226 g:\projects\cpp_projects\huntthewumpus\raylib-5.0_win64_mingw-w64\include\rlgl.h
+	<stdbool.h>
+	<OpenGL/gl.h>
+	<OpenGL/glext.h>
+	<GL/gl.h>
+	"external/glad.h"
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	"external/glad_gles2.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
+1708301463 g:\projects\cpp_projects\huntthewumpus\rlimgui-main\extras\fa6freesolidfontdata.h
+
