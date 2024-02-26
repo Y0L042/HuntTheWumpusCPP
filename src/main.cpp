@@ -1,5 +1,6 @@
 #include <iostream>
 #include <memory>
+#include <cmath>
 
 #include "raylib.h"
 #include "raygui.h"
@@ -12,6 +13,7 @@ void ready();
 void update(double delta);
 void draw(double delta);
 void createCaveNetwork();
+void drawCaves();
 
 typedef struct Cave
 {
@@ -82,15 +84,24 @@ void update(double delta)
 
 void draw(double delta)
 {
-
+    drawCaves();
 }
 
 void createCaveNetwork()
 {
     int caveCount = 20;
+    float angleDelta = 360.0f / caveCount; // Divide a circle into equal parts for each cave
+
     for (int i = 0; i < caveCount; i++)
     {
         caveNetwork[i] = new Cave;
+        // Calculate position in a circle
+        float angle = angleDelta * i * PI / 180.0f; // Convert degrees to radians
+        int centerX = GetScreenWidth() / 2;
+        int centerY = GetScreenHeight() / 2;
+        int radius = 250; // Distance from center to each cave
+        caveNetwork[i]->position.x = centerX + cos(angle) * radius;
+        caveNetwork[i]->position.y = centerY + sin(angle) * radius;
     }
 
     for (int caveIdx = 0; caveIdx < caveCount; caveIdx++)
@@ -99,6 +110,30 @@ void createCaveNetwork()
         for (int linkedCaveIdx = 0; linkedCaveIdx < 3; linkedCaveIdx++)
         {
             cave->linkedCaves[linkedCaveIdx] = caveNetwork[caveNetworkArray[caveIdx][linkedCaveIdx]];
+        }
+    }
+}
+
+void drawCaves()
+{
+    int caveCount = 20;
+    int caveRadius = 10; // Radius of the circle representing the cave
+
+    // Draw each cave
+    for (int i = 0; i < caveCount; i++)
+    {
+        Cave* cave = caveNetwork[i];
+        DrawCircle(cave->position.x, cave->position.y, caveRadius, RED);
+
+        // Draw lines to linked caves
+        for (int j = 0; j < 3; j++)
+        {
+            Cave* linkedCave = cave->linkedCaves[j];
+            if (linkedCave != nullptr) // Check if the linked cave exists
+            {
+                DrawLine(cave->position.x, cave->position.y,
+                         linkedCave->position.x, linkedCave->position.y, GREEN);
+            }
         }
     }
 }
