@@ -90,6 +90,14 @@ void EndOfFrame_GameObjects()
 //    Game::ProcessAdditionsQueue();
 }
 
+std::weak_ptr<GameInstance> GameInstance::getInstance()
+{
+    if (!gameInstance)
+    {
+        gameInstance = std::make_shared<GameInstance>();
+    }
+    return gameInstance;
+}
 
 void GameInstance::Ready()
 {
@@ -105,13 +113,4 @@ void GameInstance::Update(double delta)
 void GameInstance::Draw(double delta)
 {
 
-}
-
-std::weak_ptr<GameInstance> GameInstance::getInstance()
-{
-    if (!gameInstance)
-    {
-        gameInstance = std::make_shared<GameInstance>();
-    }
-    return gameInstance;
 }
