@@ -39,13 +39,14 @@ typedef struct Player
     int arrowCount;
 } Player;
 
+int windowWidth = 750;
+int windowHeight = 700;
+int targetFPS = 144;
+Color grey = {29, 29, 27, 255};
+
 int main(void)
 {
-    int windowWidth = 750;
-    int windowHeight = 700;
-    int targetFPS = 144;
 
-    Color grey = {29, 29, 27, 255};
 
     InitWindow(windowWidth, windowHeight, "Hunt The Wumpus");
     SetTargetFPS(targetFPS);
@@ -90,18 +91,24 @@ void draw(double delta)
 void createCaveNetwork()
 {
     int caveCount = 20;
-    float angleDelta = 360.0f / caveCount; // Divide a circle into equal parts for each cave
+    int gridRows = 4; // Number of rows in the grid
+    int gridCols = 5; // Number of columns in the grid
+
+    // Calculate spacing between caves
+    int horizontalSpacing = windowWidth / (gridCols + 1);
+    int verticalSpacing = windowHeight / (gridRows + 1);
 
     for (int i = 0; i < caveCount; i++)
     {
         caveNetwork[i] = new Cave;
-        // Calculate position in a circle
-        float angle = angleDelta * i * PI / 180.0f; // Convert degrees to radians
-        int centerX = GetScreenWidth() / 2;
-        int centerY = GetScreenHeight() / 2;
-        int radius = 250; // Distance from center to each cave
-        caveNetwork[i]->position.x = centerX + cos(angle) * radius;
-        caveNetwork[i]->position.y = centerY + sin(angle) * radius;
+
+        // Calculate grid position
+        int row = i / gridCols;
+        int col = i % gridCols;
+
+        // Assign position based on grid position
+        caveNetwork[i]->position.x = (col + 1) * horizontalSpacing;
+        caveNetwork[i]->position.y = (row + 1) * verticalSpacing;
     }
 
     for (int caveIdx = 0; caveIdx < caveCount; caveIdx++)
