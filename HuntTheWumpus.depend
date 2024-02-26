@@ -282,9 +282,10 @@
 	"rlImGui.h"
 	<vector>
 
-1708957572 source:c:\projects\cpp_projects\huntthewumpuscpp\src\main.cpp
+1708958321 source:c:\projects\cpp_projects\huntthewumpuscpp\src\main.cpp
 	<iostream>
 	<memory>
+	<cmath>
 	"raylib.h"
 	"raygui.h"
 	"imgui.h"
