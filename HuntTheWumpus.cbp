@@ -59,6 +59,8 @@
 		<Unit filename="rlImGui-main/rlImGui.cpp" />
 		<Unit filename="rlImGui-main/rlImGui.h" />
 		<Unit filename="rlImGui-main/rlImGuiColors.h" />
+		<Unit filename="src/gameinstance.cpp" />
+		<Unit filename="src/gameinstance.h" />
 		<Unit filename="src/main.cpp" />
 		<Extensions />
 	</Project>
