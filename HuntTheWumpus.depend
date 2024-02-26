@@ -274,14 +274,15 @@
 
 1708880133 c:\projects\cpp_projects\huntthewumpuscpp\rlimgui-main\extras\fa6freesolidfontdata.h
 
-1708927978 source:c:\projects\cpp_projects\huntthewumpuscpp\src\gameinstance.cpp
+1708954858 source:c:\projects\cpp_projects\huntthewumpuscpp\src\gameinstance.cpp
 	"gameinstance.h"
 	"raylib.h"
 	"raygui.h"
 	"imgui.h"
 	"rlImGui.h"
+	<vector>
 
-1708927326 source:c:\projects\cpp_projects\huntthewumpuscpp\src\main.cpp
+1708957572 source:c:\projects\cpp_projects\huntthewumpuscpp\src\main.cpp
 	<iostream>
 	<memory>
 	"raylib.h"
@@ -299,5 +300,11 @@
 	<math.h>
 
 1708928048 c:\projects\cpp_projects\huntthewumpuscpp\src\gameinstance.h
+	<memory>
+
+1708951727 source:c:\projects\cpp_projects\huntthewumpuscpp\src\gamemanager.cpp
+	"gamemanager.h"
+
+1708951610 c:\projects\cpp_projects\huntthewumpuscpp\src\gamemanager.h
 	<memory>
 
