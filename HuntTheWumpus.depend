@@ -282,7 +282,7 @@
 	"rlImGui.h"
 	<vector>
 
-1708958321 source:c:\projects\cpp_projects\huntthewumpuscpp\src\main.cpp
+1709540952 source:c:\projects\cpp_projects\huntthewumpuscpp\src\main.cpp
 	<iostream>
 	<memory>
 	<cmath>
@@ -290,6 +290,7 @@
 	"raygui.h"
 	"imgui.h"
 	"rlImGui.h"
+	"roguelib.h"
 	"gameinstance.h"
 
 1708880132 c:\projects\cpp_projects\huntthewumpuscpp\raylib-5.0_win64_mingw-w64\include\raygui.h
@@ -308,4 +309,1113 @@
 
 1708951610 c:\projects\cpp_projects\huntthewumpuscpp\src\gamemanager.h
 	<memory>
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod.hpp
+	"libtcod.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod.h
+	"libtcod/libtcod.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\libtcod.h
+	"bresenham.h"
+	"bsp.h"
+	"color.h"
+	"console.h"
+	"console_drawing.h"
+	"console_etc.h"
+	"console_init.h"
+	"console_printing.h"
+	"console_rexpaint.h"
+	"context.h"
+	"context_init.h"
+	"error.h"
+	"fov.h"
+	"globals.h"
+	"heightmap.h"
+	"image.h"
+	"lex.h"
+	"list.h"
+	"logging.h"
+	"mersenne.h"
+	"mouse.h"
+	"namegen.h"
+	"noise.h"
+	"parser.h"
+	"path.h"
+	"pathfinder.h"
+	"pathfinder_frontier.h"
+	"portability.h"
+	"random.h"
+	"renderer_sdl2.h"
+	"sdl2/event.h"
+	"sys.h"
+	"tileset.h"
+	"tileset_bdf.h"
+	"tileset_fallback.h"
+	"tileset_render.h"
+	"tileset_truetype.h"
+	"tree.h"
+	"txtfield.h"
+	"utility.h"
+	"version.h"
+	"zip.h"
+	"bresenham.hpp"
+	"bsp.hpp"
+	"color.hpp"
+	"console.hpp"
+	"console_printing.hpp"
+	"console_rexpaint.hpp"
+	"console_types.hpp"
+	"context.hpp"
+	"fov.hpp"
+	"heightmap.hpp"
+	"image.hpp"
+	"lex.hpp"
+	"list.hpp"
+	"mersenne.hpp"
+	"mouse.hpp"
+	"namegen.hpp"
+	"noise.hpp"
+	"parser.hpp"
+	"path.hpp"
+	"sys.hpp"
+	"tileset.hpp"
+	"tileset_bdf.hpp"
+	"tileset_fallback.hpp"
+	"tree.hpp"
+	"txtfield.hpp"
+	"zip.hpp"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\bresenham.h
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\portability.h
+	"config.h"
+	<wchar.h>
+	<stdint.h>
+	<stdbool.h>
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\config.h
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\bsp.h
+	"mersenne_types.h"
+	"portability.h"
+	"tree.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\mersenne_types.h
+	<stdint.h>
+	"config.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\tree.h
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\color.h
+	<stdbool.h>
+	<stdint.h>
+	<istream>
+	<ostream>
+	<stdexcept>
+	"config.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\console.h
+	<stdbool.h>
+	<algorithm>
+	<array>
+	<memory>
+	<optional>
+	<stdexcept>
+	<utility>
+	"error.hpp"
+	"color.h"
+	"config.h"
+	"error.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\error.hpp
+	<exception>
+	<filesystem>
+	<stdexcept>
+	<string>
+	"error.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\error.h
+	"config.h"
+	"version.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\version.h
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\tileset.h
+	<stddef.h>
+	"color.h"
+	"config.h"
+	"error.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\console_drawing.h
+	<array>
+	<optional>
+	"config.h"
+	"console_types.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\console_types.h
+	"color.h"
+	"config.h"
+	"console.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\console_etc.h
+	<stdbool.h>
+	<wchar.h>
+	"color.h"
+	"config.h"
+	"console.h"
+	"console_types.h"
+	"context.h"
+	"error.h"
+	"image.h"
+	"list.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\context.h
+	<algorithm>
+	<array>
+	<memory>
+	<stdexcept>
+	"console_types.hpp"
+	"error.hpp"
+	"config.h"
+	"console.h"
+	"context_viewport.h"
+	"error.h"
+	"mouse_types.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\console_types.hpp
+	<memory>
+	<stdexcept>
+	<string>
+	<utility>
+	"console.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\context_viewport.h
+	<stdbool.h>
+	"color.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\mouse_types.h
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\image.h
+	"color.h"
+	"console_types.h"
+	"error.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\list.h
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\console_init.h
+	"config.h"
+	"console.h"
+	"console_types.h"
+	"context.h"
+	"error.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\console_printing.h
+	<stdarg.h>
+	<stdbool.h>
+	<wchar.h>
+	"config.h"
+	"console_types.h"
+	"error.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\console_rexpaint.h
+	<string>
+	<vector>
+	"config.h"
+	"console_types.h"
+	"list.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\context_init.h
+	<stdbool.h>
+	"config.h"
+	"context.h"
+	"error.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\fov.h
+	<stdbool.h>
+	<memory>
+	"config.h"
+	"error.h"
+	"fov_types.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\fov_types.h
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\globals.h
+	"config.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\heightmap.h
+	"mersenne_types.h"
+	"noise.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\noise.h
+	"config.h"
+	"mersenne_types.h"
+	"noise_defaults.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\noise_defaults.h
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\lex.h
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\logging.h
+	"config.h"
+	"error.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\mersenne.h
+	"mersenne_types.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\mouse.h
+	"mouse_types.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\namegen.h
+	"list.h"
+	"mersenne.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\parser.h
+	"color.h"
+	"lex.h"
+	"list.h"
+	"mersenne.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\path.h
+	"fov_types.h"
+	"list.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\pathfinder.h
+	<stdbool.h>
+	<stddef.h>
+	<stdint.h>
+	"heapq.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\heapq.h
+	<stdbool.h>
+	<stddef.h>
+	"config.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\pathfinder_frontier.h
+	<stdint.h>
+	"config.h"
+	"error.h"
+	"heapq.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\random.h
+	<stdint.h>
+	"config.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\renderer_sdl2.h
+	<stdbool.h>
+	"config.h"
+	"console.h"
+	"context.h"
+	"error.h"
+	"mouse.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\sdl2\event.h
+	"../console_types.h"
+	"../mouse.h"
+	"../sys.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\sys.h
+	"image.h"
+	"list.h"
+	"mouse_types.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\tileset_bdf.h
+	"config.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\tileset_fallback.h
+	"config.h"
+	"error.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\tileset_render.h
+	"console.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\tileset_truetype.h
+	"config.h"
+	"error.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\txtfield.h
+	"color.h"
+	"console_types.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\utility.h
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\zip.h
+	"color.h"
+	"console_types.h"
+	"image.h"
+	"mersenne.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\bresenham.hpp
+	<array>
+	<functional>
+	<iterator>
+	<vector>
+	"bresenham.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\bsp.hpp
+	<utility>
+	"bsp.h"
+	"list.hpp"
+	"mersenne.hpp"
+	"tree.hpp"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\list.hpp
+	<stdlib.h>
+	<string.h>
+	<utility>
+	"list.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\mersenne.hpp
+	<utility>
+	"mersenne.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\tree.hpp
+	"tree.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\color.hpp
+	<algorithm>
+	<array>
+	<stdexcept>
+	"color.h"
+	"utility.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\console.hpp
+	<stdexcept>
+	<string>
+	<utility>
+	"color.hpp"
+	"console.h"
+	"console_drawing.h"
+	"console_etc.h"
+	"console_init.h"
+	"console_printing.h"
+	"console_rexpaint.h"
+	"console_types.h"
+	"image.hpp"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\image.hpp
+	"color.hpp"
+	"console.hpp"
+	"image.h"
+	"matrix.hpp"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\matrix.hpp
+	<array>
+	<stdexcept>
+	<string>
+	<vector>
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\console_printing.hpp
+	<stdio.h>
+	<array>
+	<cstdarg>
+	<optional>
+	<stdexcept>
+	<string>
+	<string_view>
+	"console_printing.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\console_rexpaint.hpp
+	<filesystem>
+	<vector>
+	"console_rexpaint.h"
+	"console_types.hpp"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\context.hpp
+	<array>
+	<filesystem>
+	<stdexcept>
+	"config.h"
+	"console.h"
+	"console_types.h"
+	"context.h"
+	"context_init.h"
+	"context_viewport.h"
+	"error.hpp"
+	"mouse_types.h"
+	"tileset.hpp"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\tileset.hpp
+	<array>
+	<filesystem>
+	<memory>
+	"error.hpp"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\fov.hpp
+	<utility>
+	"fov.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\heightmap.hpp
+	"heightmap.h"
+	"noise.hpp"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\noise.hpp
+	<utility>
+	"mersenne.hpp"
+	"noise.h"
+	"noise_defaults.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\lex.hpp
+	"lex.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\mouse.hpp
+	"mouse.h"
+	"mouse_types.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\namegen.hpp
+	<string>
+	"list.hpp"
+	"mersenne.hpp"
+	"namegen.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\parser.hpp
+	<vector>
+	<memory>
+	"color.hpp"
+	"list.hpp"
+	"parser.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\path.hpp
+	<utility>
+	"fov.hpp"
+	"path.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\sys.hpp
+	"image.hpp"
+	"mouse.hpp"
+	"sys.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\tileset_bdf.hpp
+	<filesystem>
+	"error.hpp"
+	"tileset.hpp"
+	"tileset_bdf.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\tileset_fallback.hpp
+	<array>
+	"tileset.hpp"
+	"tileset_fallback.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\txtfield.hpp
+	"color.hpp"
+	"console.hpp"
+	"txtfield.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\libtcod\include\libtcod\zip.hpp
+	<filesystem>
+	<optional>
+	<string>
+	"color.hpp"
+	"config.h"
+	"console.hpp"
+	"image.hpp"
+	"mersenne.hpp"
+	"zip.h"
+
+1708880132 c:\projects\cpp_projects\huntthewumpuscpp\include\raylib.h
+	<stdarg.h>
+	<stdbool.h>
+
+1708880132 c:\projects\cpp_projects\huntthewumpuscpp\include\imgui.h
+	"imconfig.h"
+	<float.h>
+	<stdarg.h>
+	<stddef.h>
+	<string.h>
+	<assert.h>
+	"imgui_user.h"
+
+1708880132 c:\projects\cpp_projects\huntthewumpuscpp\include\imconfig.h
+
+1708880132 c:\projects\cpp_projects\huntthewumpuscpp\include\rlgl.h
+	<stdbool.h>
+	<OpenGL/gl.h>
+	<OpenGL/glext.h>
+	<GL/gl.h>
+	"external/glad.h"
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	"external/glad_gles2.h"
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+
+1708880132 c:\projects\cpp_projects\huntthewumpuscpp\include\raygui.h
+	"raylib.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<math.h>
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod.hpp
+	"libtcod.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod.h
+	"libtcod/libtcod.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\libtcod.h
+	"bresenham.h"
+	"bsp.h"
+	"color.h"
+	"console.h"
+	"console_drawing.h"
+	"console_etc.h"
+	"console_init.h"
+	"console_printing.h"
+	"console_rexpaint.h"
+	"context.h"
+	"context_init.h"
+	"error.h"
+	"fov.h"
+	"globals.h"
+	"heightmap.h"
+	"image.h"
+	"lex.h"
+	"list.h"
+	"logging.h"
+	"mersenne.h"
+	"mouse.h"
+	"namegen.h"
+	"noise.h"
+	"parser.h"
+	"path.h"
+	"pathfinder.h"
+	"pathfinder_frontier.h"
+	"portability.h"
+	"random.h"
+	"renderer_sdl2.h"
+	"sdl2/event.h"
+	"sys.h"
+	"tileset.h"
+	"tileset_bdf.h"
+	"tileset_fallback.h"
+	"tileset_render.h"
+	"tileset_truetype.h"
+	"tree.h"
+	"txtfield.h"
+	"utility.h"
+	"version.h"
+	"zip.h"
+	"bresenham.hpp"
+	"bsp.hpp"
+	"color.hpp"
+	"console.hpp"
+	"console_printing.hpp"
+	"console_rexpaint.hpp"
+	"console_types.hpp"
+	"context.hpp"
+	"fov.hpp"
+	"heightmap.hpp"
+	"image.hpp"
+	"lex.hpp"
+	"list.hpp"
+	"mersenne.hpp"
+	"mouse.hpp"
+	"namegen.hpp"
+	"noise.hpp"
+	"parser.hpp"
+	"path.hpp"
+	"sys.hpp"
+	"tileset.hpp"
+	"tileset_bdf.hpp"
+	"tileset_fallback.hpp"
+	"tree.hpp"
+	"txtfield.hpp"
+	"zip.hpp"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\bresenham.h
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\portability.h
+	"config.h"
+	<wchar.h>
+	<stdint.h>
+	<stdbool.h>
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\config.h
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\bsp.h
+	"mersenne_types.h"
+	"portability.h"
+	"tree.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\mersenne_types.h
+	<stdint.h>
+	"config.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\tree.h
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\color.h
+	<stdbool.h>
+	<stdint.h>
+	<istream>
+	<ostream>
+	<stdexcept>
+	"config.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\console.h
+	<stdbool.h>
+	<algorithm>
+	<array>
+	<memory>
+	<optional>
+	<stdexcept>
+	<utility>
+	"error.hpp"
+	"color.h"
+	"config.h"
+	"error.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\error.hpp
+	<exception>
+	<filesystem>
+	<stdexcept>
+	<string>
+	"error.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\error.h
+	"config.h"
+	"version.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\version.h
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\tileset.h
+	<stddef.h>
+	"color.h"
+	"config.h"
+	"error.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\console_drawing.h
+	<array>
+	<optional>
+	"config.h"
+	"console_types.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\console_types.h
+	"color.h"
+	"config.h"
+	"console.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\console_etc.h
+	<stdbool.h>
+	<wchar.h>
+	"color.h"
+	"config.h"
+	"console.h"
+	"console_types.h"
+	"context.h"
+	"error.h"
+	"image.h"
+	"list.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\context.h
+	<algorithm>
+	<array>
+	<memory>
+	<stdexcept>
+	"console_types.hpp"
+	"error.hpp"
+	"config.h"
+	"console.h"
+	"context_viewport.h"
+	"error.h"
+	"mouse_types.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\console_types.hpp
+	<memory>
+	<stdexcept>
+	<string>
+	<utility>
+	"console.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\context_viewport.h
+	<stdbool.h>
+	"color.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\mouse_types.h
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\image.h
+	"color.h"
+	"console_types.h"
+	"error.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\list.h
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\console_init.h
+	"config.h"
+	"console.h"
+	"console_types.h"
+	"context.h"
+	"error.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\console_printing.h
+	<stdarg.h>
+	<stdbool.h>
+	<wchar.h>
+	"config.h"
+	"console_types.h"
+	"error.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\console_rexpaint.h
+	<string>
+	<vector>
+	"config.h"
+	"console_types.h"
+	"list.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\context_init.h
+	<stdbool.h>
+	"config.h"
+	"context.h"
+	"error.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\fov.h
+	<stdbool.h>
+	<memory>
+	"config.h"
+	"error.h"
+	"fov_types.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\fov_types.h
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\globals.h
+	"config.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\heightmap.h
+	"mersenne_types.h"
+	"noise.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\noise.h
+	"config.h"
+	"mersenne_types.h"
+	"noise_defaults.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\noise_defaults.h
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\lex.h
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\logging.h
+	"config.h"
+	"error.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\mersenne.h
+	"mersenne_types.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\mouse.h
+	"mouse_types.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\namegen.h
+	"list.h"
+	"mersenne.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\parser.h
+	"color.h"
+	"lex.h"
+	"list.h"
+	"mersenne.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\path.h
+	"fov_types.h"
+	"list.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\pathfinder.h
+	<stdbool.h>
+	<stddef.h>
+	<stdint.h>
+	"heapq.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\heapq.h
+	<stdbool.h>
+	<stddef.h>
+	"config.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\pathfinder_frontier.h
+	<stdint.h>
+	"config.h"
+	"error.h"
+	"heapq.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\random.h
+	<stdint.h>
+	"config.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\renderer_sdl2.h
+	<stdbool.h>
+	"config.h"
+	"console.h"
+	"context.h"
+	"error.h"
+	"mouse.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\sdl2\event.h
+	"../console_types.h"
+	"../mouse.h"
+	"../sys.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\sys.h
+	"image.h"
+	"list.h"
+	"mouse_types.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\tileset_bdf.h
+	"config.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\tileset_fallback.h
+	"config.h"
+	"error.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\tileset_render.h
+	"console.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\tileset_truetype.h
+	"config.h"
+	"error.h"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\txtfield.h
+	"color.h"
+	"console_types.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\utility.h
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\zip.h
+	"color.h"
+	"console_types.h"
+	"image.h"
+	"mersenne.h"
+	"portability.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\bresenham.hpp
+	<array>
+	<functional>
+	<iterator>
+	<vector>
+	"bresenham.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\bsp.hpp
+	<utility>
+	"bsp.h"
+	"list.hpp"
+	"mersenne.hpp"
+	"tree.hpp"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\list.hpp
+	<stdlib.h>
+	<string.h>
+	<utility>
+	"list.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\mersenne.hpp
+	<utility>
+	"mersenne.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\tree.hpp
+	"tree.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\color.hpp
+	<algorithm>
+	<array>
+	<stdexcept>
+	"color.h"
+	"utility.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\console.hpp
+	<stdexcept>
+	<string>
+	<utility>
+	"color.hpp"
+	"console.h"
+	"console_drawing.h"
+	"console_etc.h"
+	"console_init.h"
+	"console_printing.h"
+	"console_rexpaint.h"
+	"console_types.h"
+	"image.hpp"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\image.hpp
+	"color.hpp"
+	"console.hpp"
+	"image.h"
+	"matrix.hpp"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\matrix.hpp
+	<array>
+	<stdexcept>
+	<string>
+	<vector>
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\console_printing.hpp
+	<stdio.h>
+	<array>
+	<cstdarg>
+	<optional>
+	<stdexcept>
+	<string>
+	<string_view>
+	"console_printing.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\console_rexpaint.hpp
+	<filesystem>
+	<vector>
+	"console_rexpaint.h"
+	"console_types.hpp"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\context.hpp
+	<array>
+	<filesystem>
+	<stdexcept>
+	"config.h"
+	"console.h"
+	"console_types.h"
+	"context.h"
+	"context_init.h"
+	"context_viewport.h"
+	"error.hpp"
+	"mouse_types.h"
+	"tileset.hpp"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\tileset.hpp
+	<array>
+	<filesystem>
+	<memory>
+	"error.hpp"
+	"tileset.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\fov.hpp
+	<utility>
+	"fov.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\heightmap.hpp
+	"heightmap.h"
+	"noise.hpp"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\noise.hpp
+	<utility>
+	"mersenne.hpp"
+	"noise.h"
+	"noise_defaults.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\lex.hpp
+	"lex.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\mouse.hpp
+	"mouse.h"
+	"mouse_types.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\namegen.hpp
+	<string>
+	"list.hpp"
+	"mersenne.hpp"
+	"namegen.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\parser.hpp
+	<vector>
+	<memory>
+	"color.hpp"
+	"list.hpp"
+	"parser.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\path.hpp
+	<utility>
+	"fov.hpp"
+	"path.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\sys.hpp
+	"image.hpp"
+	"mouse.hpp"
+	"sys.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\tileset_bdf.hpp
+	<filesystem>
+	"error.hpp"
+	"tileset.hpp"
+	"tileset_bdf.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\tileset_fallback.hpp
+	<array>
+	"tileset.hpp"
+	"tileset_fallback.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\txtfield.hpp
+	"color.hpp"
+	"console.hpp"
+	"txtfield.h"
+
+1685100843 c:\projects\cpp_projects\huntthewumpuscpp\include\libtcod\zip.hpp
+	<filesystem>
+	<optional>
+	<string>
+	"color.hpp"
+	"config.h"
+	"console.hpp"
+	"image.hpp"
+	"mersenne.hpp"
+	"zip.h"
+
+1709541036 c:\projects\cpp_projects\huntthewumpuscpp\src\roguelib.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<time.h>
+	"raylib.h"
+	"glyph.h"
+	"render.h"
+
+1709540690 c:\projects\cpp_projects\huntthewumpuscpp\src\glyph.h
+
+1709540695 c:\projects\cpp_projects\huntthewumpuscpp\src\render.h
 

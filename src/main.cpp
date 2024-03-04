@@ -7,6 +7,8 @@
 #include "imgui.h"
 #include "rlImGui.h"
 
+#include "roguelib.h"
+
 #include "gameinstance.h"
 
 void ready();
@@ -85,7 +87,7 @@ void update(double delta)
 
 void draw(double delta)
 {
-    drawCaves();
+
 }
 
 void createCaveNetwork()

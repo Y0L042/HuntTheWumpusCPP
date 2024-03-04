@@ -33,10 +33,14 @@
 			<Add directory="raylib-5.0_win64_mingw-w64/include" />
 			<Add directory="imgui-docking/include" />
 			<Add directory="rlImGui-main" />
+			<Add directory="libtcod/include" />
 		</Compiler>
 		<Linker>
 			<Add library="libraylibdll" />
+			<Add library="libtcod.dll" />
+			<Add library="SDL2.dll" />
 			<Add directory="raylib-5.0_win64_mingw-w64/lib" />
+			<Add directory="libtcod/lib" />
 		</Linker>
 		<Unit filename="imgui-docking/include/imconfig.h" />
 		<Unit filename="imgui-docking/include/imgui.cpp" />
